@@ -1,0 +1,46 @@
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+.idea/
+.vscode/
+
+# Generated synthetic datasets and local database
+/data/*.db
+/data/*.sqlite
+/data/*.sqlite3
+/data/*.csv
+/data/*.db-*
+/data/*.db-journal
+/data/*.db-wal
+/data/*.db-shm
+
+# Local logs and investigation artifacts
+/logs/*
+!/logs/.gitkeep
+*.log
+bankops_investigation.json
+
+# Leftover development and backup artifacts
+*~
+*.bak
+*.backup
+*_backup.py
+*_backup.txt
+*broken_backup*
+app_redesign.py
+
+# Generated archives / distribution
+*.zip
+*.tar.gz
+/dist/
+/build/

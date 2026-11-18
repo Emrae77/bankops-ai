@@ -1,0 +1,161 @@
+{
+  "generated_at": "2026-11-18T06:32:59.721210+00:00",
+  "dataset": "Synthetic BankOps service tickets",
+  "baseline": {
+    "period": "baseline",
+    "tickets": 725,
+    "breaches": 221,
+    "breach_pct": 30.48,
+    "avg_resolution_hours": 21.28
+  },
+  "recent": {
+    "period": "recent",
+    "tickets": 212,
+    "breaches": 101,
+    "breach_pct": 47.64,
+    "avg_resolution_hours": 26.22
+  },
+  "overall_change_pp": 17.16,
+  "top_category": {
+    "segment": "Payment Investigation",
+    "baseline_tickets": 154,
+    "baseline_breaches": 65,
+    "baseline_rate": 42.21,
+    "recent_tickets": 71,
+    "recent_breaches": 55,
+    "recent_rate": 77.46,
+    "change_pp": 35.25,
+    "excess_breaches": 25.03
+  },
+  "top_team": {
+    "segment": "Payments Operations",
+    "baseline_tickets": 256,
+    "baseline_breaches": 101,
+    "baseline_rate": 39.45,
+    "recent_tickets": 91,
+    "recent_breaches": 70,
+    "recent_rate": 76.92,
+    "change_pp": 37.47,
+    "excess_breaches": 34.1
+  },
+  "category_comparisons": [
+    {
+      "segment": "Payment Investigation",
+      "baseline_tickets": 154,
+      "baseline_breaches": 65,
+      "baseline_rate": 42.21,
+      "recent_tickets": 71,
+      "recent_breaches": 55,
+      "recent_rate": 77.46,
+      "change_pp": 35.25,
+      "excess_breaches": 25.03
+    },
+    {
+      "segment": "Transfer Inquiry",
+      "baseline_tickets": 102,
+      "baseline_breaches": 36,
+      "baseline_rate": 35.29,
+      "recent_tickets": 20,
+      "recent_breaches": 15,
+      "recent_rate": 75.0,
+      "change_pp": 39.71,
+      "excess_breaches": 7.94
+    },
+    {
+      "segment": "Document Verification",
+      "baseline_tickets": 94,
+      "baseline_breaches": 15,
+      "baseline_rate": 15.96,
+      "recent_tickets": 27,
+      "recent_breaches": 8,
+      "recent_rate": 29.63,
+      "change_pp": 13.67,
+      "excess_breaches": 3.69
+    },
+    {
+      "segment": "Account Maintenance",
+      "baseline_tickets": 134,
+      "baseline_breaches": 36,
+      "baseline_rate": 26.87,
+      "recent_tickets": 30,
+      "recent_breaches": 9,
+      "recent_rate": 30.0,
+      "change_pp": 3.13,
+      "excess_breaches": 0.94
+    },
+    {
+      "segment": "Account Access",
+      "baseline_tickets": 126,
+      "baseline_breaches": 32,
+      "baseline_rate": 25.4,
+      "recent_tickets": 25,
+      "recent_breaches": 6,
+      "recent_rate": 24.0,
+      "change_pp": -1.4,
+      "excess_breaches": -0.35
+    },
+    {
+      "segment": "Card Dispute",
+      "baseline_tickets": 115,
+      "baseline_breaches": 37,
+      "baseline_rate": 32.17,
+      "recent_tickets": 39,
+      "recent_breaches": 8,
+      "recent_rate": 20.51,
+      "change_pp": -11.66,
+      "excess_breaches": -4.55
+    }
+  ],
+  "team_comparisons": [
+    {
+      "segment": "Payments Operations",
+      "baseline_tickets": 256,
+      "baseline_breaches": 101,
+      "baseline_rate": 39.45,
+      "recent_tickets": 91,
+      "recent_breaches": 70,
+      "recent_rate": 76.92,
+      "change_pp": 37.47,
+      "excess_breaches": 34.1
+    },
+    {
+      "segment": "Client Services",
+      "baseline_tickets": 228,
+      "baseline_breaches": 51,
+      "baseline_rate": 22.37,
+      "recent_tickets": 57,
+      "recent_breaches": 17,
+      "recent_rate": 29.82,
+      "change_pp": 7.45,
+      "excess_breaches": 4.25
+    },
+    {
+      "segment": "Digital Support",
+      "baseline_tickets": 126,
+      "baseline_breaches": 32,
+      "baseline_rate": 25.4,
+      "recent_tickets": 25,
+      "recent_breaches": 6,
+      "recent_rate": 24.0,
+      "change_pp": -1.4,
+      "excess_breaches": -0.35
+    },
+    {
+      "segment": "Card Operations",
+      "baseline_tickets": 115,
+      "baseline_breaches": 37,
+      "baseline_rate": 32.17,
+      "recent_tickets": 39,
+      "recent_breaches": 8,
+      "recent_rate": 20.51,
+      "change_pp": -11.66,
+      "excess_breaches": -4.55
+    }
+  ],
+  "limitations": [
+    "Associations do not establish causal root causes.",
+    "Excess breaches use each segment historical rate.",
+    "Different cohort sizes require careful interpretation.",
+    "This report evaluates SQL findings, not Gemini accuracy."
+  ]
+}
