@@ -3,7 +3,7 @@
 **Banking operations analytics with evidence-backed AI investigation**
 Python · SQLite · SQL · Streamlit · pandas · Altair · Gemini tool calling
 
-> **From an SLA warning to an actionable investigation.** BankOps AI compares banking service-request performance with a historical baseline, pinpoints where breaches are concentrated, and lets an analyst investigate the evidence through approved SQL tools. The optional Gemini layer explains results; it cannot execute arbitrary model-written SQL.
+BankOps AI compares banking service-request performance with a historical baseline, pinpoints where breaches are concentrated, and lets an analyst investigate the evidence through approved SQL tools. The optional Gemini layer explains results; it cannot execute arbitrary model-written SQL.
 
 ![BankOps AI operations overview](assets/overview.png)
 
